@@ -86,7 +86,7 @@ $yiq-text-light:            #fff !default;
 /* mixin to create background variants */ 
 @mixin theme-bg($parent, $color) {
     #{$parent} {
-        background-color: $color !important;
+        background-color: $red !important;
     }
     a#{$parent},
     button#{$parent} {
