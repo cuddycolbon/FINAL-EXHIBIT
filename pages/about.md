@@ -6,6 +6,12 @@ permalink: /about.html
 credits: true
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
+
+{% include feature/jumbotron.html objectid="https://cdil.lib.uidaho.edu/images/palouse_sm.jpg" %}
+
+{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+
+## About the Collection
 ---
  Although Canada may be infamous for our cold, snowy winters and beautiful landscapes regardless of season, Niagara Falls lives as a historic scene of unprecedented natural phenomena and a unique environment that only intensifies in the winter. This intimidating force of nature produces extraordinary sights and organic anomalies in the forms of massive mounds of slick snow across the frozen Niagara River, or icicles that stretch meters long and across hanging from sharp edges of the escarpment, and so much more. 
  
